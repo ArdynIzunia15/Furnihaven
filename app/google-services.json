@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "268590140221",
+    "project_id": "furnihaven-1cab4",
+    "storage_bucket": "furnihaven-1cab4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:268590140221:android:d44ea75c204211d8941354",
+        "android_client_info": {
+          "package_name": "com.youkea.furnihaven"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7tk0tDKHx86uJhe6O1FqUSx1BGW1E_3o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
