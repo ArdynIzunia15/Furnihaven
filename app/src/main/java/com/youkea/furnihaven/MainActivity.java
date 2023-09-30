@@ -30,20 +30,17 @@ public class MainActivity extends AppCompatActivity {
 
         btnView3D.setOnClickListener(v -> {
             // Get Download Url
-            storageReference.child("Kursi 1.gltf").getDownloadUrl().addOnSuccessListener(new OnSuccessListener<Uri>() {
-                @Override
-                public void onSuccess(Uri uri) {
-                    // Open ARCore Intent
-                    Intent sceneViewerIntent = new Intent(Intent.ACTION_VIEW);
-                    Uri intentUri =
-                            Uri.parse("https://arvr.google.com/scene-viewer/1.0").buildUpon()
-                                    .appendQueryParameter("file", uri.toString())
-                                    .appendQueryParameter("mode", "3d_preferred")
-                                    .build();
-                    sceneViewerIntent.setData(intentUri);
-                    sceneViewerIntent.setPackage("com.google.ar.core");
-                    startActivity(sceneViewerIntent);
-                }
+            storageReference.child("Kursi 2.gltf").getDownloadUrl().addOnSuccessListener(uri -> {
+                // Open ARCore Intent
+                Intent sceneViewerIntent = new Intent(Intent.ACTION_VIEW);
+                Uri intentUri =
+                        Uri.parse("https://arvr.google.com/scene-viewer/1.0").buildUpon()
+                                .appendQueryParameter("file", uri.toString())
+                                .appendQueryParameter("mode", "3d_preferred")
+                                .build();
+                sceneViewerIntent.setData(intentUri);
+                sceneViewerIntent.setPackage("com.google.ar.core");
+                startActivity(sceneViewerIntent);
             });
         });
     }
