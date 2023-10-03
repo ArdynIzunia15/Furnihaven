@@ -1,13 +1,13 @@
 {
   "project_info": {
-    "project_number": "268590140221",
-    "project_id": "furnihaven-1cab4",
-    "storage_bucket": "furnihaven-1cab4.appspot.com"
+    "project_number": "389639525978",
+    "project_id": "arrangement-room",
+    "storage_bucket": "arrangement-room.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:268590140221:android:d44ea75c204211d8941354",
+        "mobilesdk_app_id": "1:389639525978:android:4577274f3a756beb1a2a63",
         "android_client_info": {
           "package_name": "com.youkea.furnihaven"
         }
@@ -15,7 +15,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyD7tk0tDKHx86uJhe6O1FqUSx1BGW1E_3o"
+          "current_key": "AIzaSyBDP4omDJchVRkLG2FGd2FULlrTt8d8YZM"
         }
       ],
       "services": {
